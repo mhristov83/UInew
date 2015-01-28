@@ -35,7 +35,7 @@ namespace CustomTestFramework.Core
             
             CustomTestContext.Instance.TestManager.Start();
 
-            CustomTestContext.Instance.TestManager.LaunchNewBrowser(BrowserType.Chrome);
+            CustomTestContext.Instance.TestManager.LaunchNewBrowser(BrowserType.FireFox);
 
             CustomTestContext.Instance.TestBrowser = CustomTestContext.Instance.TestManager.ActiveBrowser;
 
